@@ -3,12 +3,11 @@
 //mostrar cantidad fotos con >10 likes
 
 // pedir número likes fotografia o salir
-    // añadir a lista
-    //mostrar total likes lista
+    //añadir a lista
     //mostrar suma likes lista
-    //Mostrar cantidad elementos lista>10
+    //Mostrar cantidad elementos lista>10 / contar numero de ingresos >10
 
-const listaLikes = [];
+let listaLikes = [];
 let anadirLikes;
 let fotosMenosLikes=0;
 
@@ -28,17 +27,3 @@ do {
         alert ("Tienes " + fotosMenosLikes + " fotografías con menos de 10 likes");
     }
 }while (anadirLikes != "Salir");
-
-
-
-
-// do{
-//     valorIngresado = prompt ("Ingrese el número de likes o Salir para finalizar el recuento")
-//     if (valorIngresado != "Salir"){
-//         sumaNumerica = sumaNumerica + parseInt(valorIngresado)
-//         console.log (sumaNumerica)
-//     }else{
-//         alert("Fin primer ejercicio")
-//     }
-
-// }while (valorIngresado != "Salir")
