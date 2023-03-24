@@ -1,0 +1,1 @@
+let ejercicio2 = alert ("Respuesta ejercicio 2")
