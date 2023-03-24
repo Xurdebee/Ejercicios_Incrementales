@@ -12,7 +12,7 @@ do {
         alert("Veo que no te interesa introducir o no tienes más amigos.");
         amigos.sort();
         alert("Los nombres de tus amigos son: "+ amigos);
-        amigos.forEach (data =>console.log(data))
+        amigos.forEach (data =>console.log(data));
     }
 }while (nuevoAmigo != null);
 alert("Gracias por usar la app.");
