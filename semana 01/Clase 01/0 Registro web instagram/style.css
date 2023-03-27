@@ -1,0 +1,63 @@
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+}
+
+.formulario{
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 0%;
+}
+.formulario h1{
+    padding: 20px 0px 0px 0px;
+}
+.formulario form{
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.username input{
+    width: 90%;
+    background-color:whitesmoke;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+.username label{
+    color: darkgrey;
+
+}
+
+form .password{
+    padding-bottom: 20px;
+}
+.password input{
+    width: 90%;
+    background-color:whitesmoke;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+.password label{
+    color: darkgrey;
+
+}
+button{
+    color: aliceblue;
+    width: 90%;
+    background-color:dodgerblue;
+    border-color: 0px;
+    border-radius: 6px;
+}

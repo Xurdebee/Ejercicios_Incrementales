@@ -1,0 +1,60 @@
+body {
+    background-color: #78bbcb
+    }
+
+.logo{
+    height: 150px;
+
+}
+
+h2{
+    color:darkblue
+}
+
+h1{
+    color: blueviolet;
+}
+
+.lista{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    
+   
+}
+
+.lista:active {
+    height: 150px;
+    width:  150px;
+    border-radius: 0%;
+    padding: 10px;
+    
+}
+
+.spoiler:active oculto {
+    display: block;
+}
+
+oculto {
+    display: none;
+    color: antiquewhite;
+    background-color:blueviolet;
+    padding: 10px;
+    
+}
+
+a:link{
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+    font-size: 22px;
+
+}
+footer{
+    text-align: center;
+    
+}
