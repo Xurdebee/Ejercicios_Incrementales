@@ -2,7 +2,7 @@
 1 inicio
 2 declarar variables
 3 solicitar variables en una función.
-4 leer variables y comprobar que son distintas, si no, repetir punto 4.
+4 leer variables con una función y comprobar que son distintas, si no, repetir punto 4.
     Cuando sean distintas:
         Si 1º es mayor que 2º y 3º: Mostrar "1º es el número mayor"
         Si 2º es mayor que 1º y 3º: Mostrar "2º es el número mayor"
