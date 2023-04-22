@@ -9,9 +9,10 @@ var moment = require("moment");
 // moment.locale("en");
 // var horayDiaEn = moment ().format ("y dddd - H:mm")
 // console.log (horayDiaEn);
-var now = moment (new Date());
+
 
 var utc = moment (new Date()).utc();
+var now = moment (new Date());
 
 
 
@@ -68,3 +69,6 @@ server.listen(3000,()=>{
 const coolImages = require("cool-images");
 
 coolImages.one();
+server.get ("/", (req,res)=>{
+	coolImages.one();
+});
