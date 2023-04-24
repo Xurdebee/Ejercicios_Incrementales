@@ -37,7 +37,7 @@ app.get("/user/:id",(req,res)=>{
 	res.send(user)
 })
 
-app.get("/user/:name",(req,res)=>{
+app.get("/user/name/:nombre",(req,res)=>{
 	const user = user.find(data=>data.nombre === req.params.nombre);
 	if(!user){
 		return res.status(404).send("Id no encontrada");

@@ -19,20 +19,9 @@ let json = [
 
 let users = JSON.parse(json);
 
-/*
-let jsonF = "{No tiene nada dentro valido}"
 
-try {
-	let userF = JSON.parse(jasonF);
-	alert (user.name);
-} catch (err) {
-	alert ("Todo mal")
-	alert (err.name);
-	alert ( err.message);
-}
-*/
 
-//
+
 /* 
 function buscarId(){
 	let idBusqueda = parseInt(prompt("Introduce el ID"))
