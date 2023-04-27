@@ -58,9 +58,7 @@ server.get ("/error", (req,res)=>{
 	res.json ({error:"Algo salió muy mal =( "});
 });
 
-server.listen(3000,()=>{
-	console.log ("El servidor se está iniciando en el puerto 3000 ...")
-});
+
 
 
 
@@ -71,4 +69,9 @@ const coolImages = require("cool-images");
 coolImages.one();
 server.get ("/", (req,res)=>{
 	coolImages.one();
+});
+
+
+server.listen(3000,()=>{
+	console.log ("El servidor se está iniciando en el puerto 3000 ...")
 });
